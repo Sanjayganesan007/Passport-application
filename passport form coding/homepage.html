@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <style>
+        .btn-group .btn{
+            background-color: blue;
+            border: 1px solid blue;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            cursor: pointer;
+            width: 14%;
+        }
+        .btn-group .btn{
+            border-right: none;
+        }
+        .btn-group .btn:hover{
+            background-color: blue;
+        }
+        .button{
+            background-color: blue;
+            border: 1px solid blue;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display:block;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .button:not(:last-child){
+            border-bottom: none;
+        }
+        .button:vertical{
+            background-color: blue;
+        }
+        .space{
+            padding-left: 500px;
+        }
+        .btn-group {
+            width: 100%;
+        }
+        .image{
+            position:absolute;
+            right: 100px;
+        }
+        .image1{
+            position:absolute;
+            right: 40px;
+            bottom: auto;
+        }
+        .image2{
+            position:absolute;
+            right: 230px;
+        }
+        .label{
+            background-color: white;
+            border: 1px solid white;
+            color:blue;
+            width: 50px;
+            cursor: pointer;
+        }        
+        div{
+            background-image: url(emblem1.jpg);
+            background-repeat: no-repeat;
+            background-size:auto;
+            background-position: center;
+        }
+        .a{
+            width: 45%;
+        }
+    </style>
+</head>
+<body>  
+    <table>
+        <tr>
+            <td><img src="emblem.jpg" alt="image here"></td>
+            <td>Passport Seva <br> PSP Division <br> ministry of external affairs,Government of india</td>
+            <td><img src="logo.jpg" alt="image here" class="space"></td>
+        </tr>
+    </table>
+    <hr width="100%" size="5" color="blue">
+    </table>
+    <tr>
+       <div class="btn-group">
+        <button class="btn">Home</button>
+        <select  class="btn" name="About Us" id="button">
+            <option>About Us</option>
+            <option>Profiles</option>
+            <option>PSP Division</option>         
+            <option>Passport Seva</option></select></button>
+        <select class="btn" name="Passport Office" id="button">Passport Office
+            <option>Passport Office</option>
+            <option>Passport office in india</option>
+            <option>mission/post abroad</option></select></button>
+        <button class="btn">RTI</button>
+        <button class="btn">Citizen's chater</button>
+        <button class="btn">Contact Us</button>
+        <button class="btn">What's New</button>
+    </tr>
+    <br>
+    <br>
+    <br>
+    <br> <img src="certificate.jpg" alt="image here" class="image" height="250" width="300">
+    <a href="signin.html">
+        <input type="button" value="New User Registration" class="button" >
+    </a>
+    <br>
+    <a href="login.html">
+        <input type="button" value="Existing User Login" class="button" >
+    </a>
+    <br>
+    <a href="form.html">
+        <input type="button" value="Check Form Availability" class="button" >
+    </a>
+    <br>
+    <button class="button">Track Application Status</button>
+    <br>
+    <br>
+    <form action="/action_page.php"><img src="azadi.jpg" alt="image here" class="image2" height="150" width="200">
+        <label for="National Call Center" class="label">National Call Center</label>
+        <br>
+        <select name="National Call Center" id="National Call Center">
+          <option value="1800-258-1800">1800-258-1800</option>
+        </select>
+        <br>
+        <br>
+          <label for="National Call Center" class="label">National Call Center</label>
+          <br>
+        <select name="Passport Office Page" id="Passport Office Page">
+            <option value="----PASSPORT OFFICE----">----PASSPORT OFFICE----</option>
+        </select>
+        <br>
+        <br><img src="india.jpg" alt="image here" class="image1" height="150" width="200">
+          <label for="Mission/Post Page" class="label">Mission/Post Page</label>
+          <br>
+        <select name="Mission/Post Page" id="Mission/Post Page">
+            <option value="----REGION/COUNTRY----">----REGION/COUNTRY----</option>
+        </select>
+        <br> 
+        <br>
+        <label for="Login for Official Users" class="label">Login for Official Users</label>
+        <br>
+      <select name="Login for Official Users" id="Login for Official Users">
+          <option value="----OFFICIAL USERS----">----OFFICIAL USERS----</option>
+      </select>
+    </form>
+    <table>
+        <tr><h2>Before You Apply</h2>
+            <div class="btn-group">
+                <select  class="btn" name="Information Corner" id="button">
+                    <option>Information Corner</option>
+                    <option>Getting Started</option>
+                    <option>FAQs</option>         
+                    <option>Quick Guides</option>
+                    <option>Instructions Booklets</option>
+                    <option>Public advisory</option>
+                    <option>Fee calculator</option></select></button>
+                <button class="btn">Forms and Affidavits</button>
+                <button class="btn">Document Advisor</button>
+                <button class="btn">Feedback Grievance</button>
+                <button class="btn">Notices And Updates</button>
+                <button class="btn">Steps to Apply</button>
+                <button class="btn">Case Studies</button>
+        </tr>  
+    </table>
+</div>
+<br>
+   <hr width="100%" size="5" color="blue">
+    <a class="btn-group">
+        <button class="btn">External Links</button>
+        <button class="btn">Legal information</button>
+        <button class="btn">Help</button>
+        <button class="btn">Connect with us</button>
+        <button class="btn">Photo gallery</button>
+        <button class="btn">HRM & training</button>
+        <button class="btn">Awards</button></a>
+</body>
+</html>
